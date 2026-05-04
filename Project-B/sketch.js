@@ -77,11 +77,6 @@ function draw() {
     if (b[i].isdone == true) {
       b.splice(i, 1);
     }
-    // for (let i = 0; i < b.length; i++) {
-    //   if (i > 10) {
-    //     b.splice(i, 1);
-    //   }
-    // }
   } //b for loop ends
 
   if (mouseIsPressed && mouseButton == RIGHT) {
